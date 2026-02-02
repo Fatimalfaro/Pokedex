@@ -69,16 +69,21 @@
     </header>
 
     <main>
-        <div class="container min-vh-100 d-flex justify-content-center align-items-center">
-            <div class="card shadow-lg rounded-4 p-4 text-center my-5 card-width">
+        <div class="container min-vh-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="card shadow-lg p-4 rounded-4 text-center my-5 card-width">
                 <h1 class="text-danger fw-light mb-3">404</h1>
                 <img src="../img/wartortle.png" class="img-fluid mx-auto mb-4" alt="Wartortle bloqueando el camino">
                 <h5 class="fw-bold mb-2">¡Poké-Parada no encontrada!</h5>
                 <p class="text-muted mb-4"> Parece que un Wartortle bloqueó el camino a esta página. ¡Es mejor que regreses antes de que use Hiperrayo!</p>
-                <a href="../index.html" class="btn btn-danger"><i class="bi bi-house"></i>Volver al inicio</a>
-                <p><i class="bi bi-info-circle"></i>Error de conexión con la Poké-Red</p>
+                <div class="d-flex justify-content-center">
+                    <a href="../index.html" class="btn btn-danger px-4 py-2 rounded-5"><i class="bi bi-house me-1"></i>Volver al inicio</a>
+                </div>               
+            </div>
+            <div>
+            <p class="text-center text-muted"><i class="bi bi-info-circle me-1"></i>Error de conexión con la Poké-Red</p>
             </div>
         </div>
+    
     </main>
     
 
