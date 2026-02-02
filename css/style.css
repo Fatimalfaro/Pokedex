@@ -43,3 +43,24 @@ main{
     line-height: 1.2;
     margin: 4px 0 0 0;
 }
+
+.bg-purple {
+    background-color: #9b59b6;
+  }
+
+.bg-naranja {
+    background-color: orangered;
+  }
+
+
+.bg-pink {
+    background-color: #ee92c0;
+  }
+
+.bg-fucsia {
+    background-color: #ec4899;
+  }
+
+.bg-yellow{
+    background-color: rgb(247, 247, 70);
+}
